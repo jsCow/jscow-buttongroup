@@ -1,0 +1,189 @@
+{
+    "project": {
+        "name": "jscow-group",
+        "description": "jsCow - Buttongroup - Javascript Component Framework",
+        "version": "1.0.0",
+        "url": ""
+    },
+    "files": {
+        "src\\jscow\\components\\jscow-buttongroup.js": {
+            "name": "src\\jscow\\components\\jscow-buttongroup.js",
+            "modules": {},
+            "classes": {
+                "jsCow.res.components.buttongroup": 1,
+                "jsCow.res.model.buttongroup": 1,
+                "jsCow.res.view.buttongroup": 1,
+                "jsCow.res.controller.buttongroup": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {},
+    "classes": {
+        "jsCow.res.components.buttongroup": {
+            "name": "jsCow.res.components.buttongroup",
+            "shortname": "jsCow.res.components.buttongroup",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src\\jscow\\components\\jscow-buttongroup.js",
+            "line": 1,
+            "description": "jsCow buttongroup component is a reusable component used in client side jsCow applications. \nA buttongroup is a component to group multiple button components.",
+            "author": "Mario Linz <jscow@gmx.de>",
+            "type": "Class Provides the main class of the component",
+            "is_constructor": 1
+        },
+        "jsCow.res.model.buttongroup": {
+            "name": "jsCow.res.model.buttongroup",
+            "shortname": "jsCow.res.model.buttongroup",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src\\jscow\\components\\jscow-buttongroup.js",
+            "line": 39,
+            "description": "Represents the model class of the jsCow button component.",
+            "author": "Mario Linz <jscow@gmx.de>",
+            "type": "Class Provides the model class of the component",
+            "is_constructor": 1
+        },
+        "jsCow.res.view.buttongroup": {
+            "name": "jsCow.res.view.buttongroup",
+            "shortname": "jsCow.res.view.buttongroup",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src\\jscow\\components\\jscow-buttongroup.js",
+            "line": 73,
+            "description": "Represents the view class of the jsCow button component.",
+            "author": "Mario Linz <jscow@gmx.de>",
+            "type": "Class Provides the view class of the component",
+            "is_constructor": 1
+        },
+        "jsCow.res.controller.buttongroup": {
+            "name": "jsCow.res.controller.buttongroup",
+            "shortname": "jsCow.res.controller.buttongroup",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src\\jscow\\components\\jscow-buttongroup.js",
+            "line": 137,
+            "description": "Represents the controller class of the jsCow group component.",
+            "author": "Mario Linz <jscow@gmx.de>",
+            "type": "Class Provides the controller class of the component",
+            "is_constructor": 1
+        }
+    },
+    "elements": {},
+    "classitems": [
+        {
+            "file": "src\\jscow\\components\\jscow-buttongroup.js",
+            "line": 14,
+            "description": "The init method will be called by initializing the component. \nThe model, view and controller should be set within this method.\n\t\t\n\t\tthis.addController(jsCow.res.controller.buttongroup);\n\t\tthis.addModel(jsCow.res.model.buttongroup);\n\t\tthis.addView(jsCow.res.view.buttongroup);",
+            "itemtype": "method",
+            "name": "init",
+            "access": "public",
+            "tagname": "",
+            "return": {
+                "description": "Instance of the component itself.",
+                "type": "Object"
+            },
+            "class": "jsCow.res.components.buttongroup"
+        },
+        {
+            "file": "src\\jscow\\components\\jscow-buttongroup.js",
+            "line": 53,
+            "description": "The model init method will only trigger the internal component event 'model.ready'.\nThe event data are the model data.\nDefault listener for this event is registered in the controller of the component. \n\t  \t\n\t  \tthis.trigger(\"model.ready\", this.data);",
+            "itemtype": "method",
+            "name": "init",
+            "access": "private",
+            "tagname": "",
+            "class": "jsCow.res.model.buttongroup"
+        },
+        {
+            "file": "src\\jscow\\components\\jscow-buttongroup.js",
+            "line": 84,
+            "description": "Objekt for all needed HTML-DOM elements of the component.",
+            "itemtype": "property",
+            "name": "dom",
+            "type": "Object",
+            "default": "{} Object",
+            "class": "jsCow.res.view.buttongroup"
+        },
+        {
+            "file": "src\\jscow\\components\\jscow-buttongroup.js",
+            "line": 93,
+            "description": "Represents the html main container of the component.",
+            "itemtype": "property",
+            "name": "dom.main",
+            "type": "Object",
+            "default": "<div/> jQuery DIV object",
+            "class": "jsCow.res.view.buttongroup"
+        },
+        {
+            "file": "src\\jscow\\components\\jscow-buttongroup.js",
+            "line": 102,
+            "description": "Represents the inner html container of the component.",
+            "itemtype": "property",
+            "name": "dom.content",
+            "type": "Object",
+            "default": "<div/> jQuery DIV object",
+            "class": "jsCow.res.view.buttongroup"
+        },
+        {
+            "file": "src\\jscow\\components\\jscow-buttongroup.js",
+            "line": 114,
+            "description": "The view init method can used to set default view properties.\nBy trigger the event 'model.ready' the controller will trigger the event 'view.init' to call this method.",
+            "itemtype": "method",
+            "name": "init Set all default view properties and trigger the component event 'view.update'.",
+            "class": "jsCow.res.view.buttongroup"
+        },
+        {
+            "file": "src\\jscow\\components\\jscow-buttongroup.js",
+            "line": 124,
+            "description": "The view update method will update the complete component view by trigger the event 'view.update' with all available model data.",
+            "itemtype": "method",
+            "name": "update",
+            "params": [
+                {
+                    "name": "eventdata",
+                    "description": "Contains all sent event data",
+                    "type": "Object"
+                }
+            ],
+            "class": "jsCow.res.view.buttongroup"
+        },
+        {
+            "file": "src\\jscow\\components\\jscow-buttongroup.js",
+            "line": 149,
+            "description": "The controller init method register all needed events within the controller and provides all related event handler.\n\t\t\n\t  \t// Code examples\n\t  \tthis.on(\"model.ready\", this.isModelReady);",
+            "itemtype": "method",
+            "name": "init",
+            "class": "jsCow.res.controller.buttongroup"
+        },
+        {
+            "file": "src\\jscow\\components\\jscow-buttongroup.js",
+            "line": 166,
+            "description": "The controller isModelReady method is an event handler and will be triggert by the event 'model.ready' with all available model data.\nIs the model ready the 'view.init' event will triggert by this handler with all available model data again.\n\t  \t\n\t  \tthis.trigger(\n\t\t\t\"view.init\", \n\t\t\te.data\n\t\t);",
+            "itemtype": "method",
+            "name": "isModelReady",
+            "params": [
+                {
+                    "name": "eventdata",
+                    "description": "Contains all sent event data",
+                    "type": "Object"
+                }
+            ],
+            "class": "jsCow.res.controller.buttongroup"
+        }
+    ],
+    "warnings": []
+}

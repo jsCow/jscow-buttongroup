@@ -1,0 +1,25 @@
+
+//
+// Buttongroup
+
+.jsc-btngroup {
+	
+	.jsc-btn {
+		.round-corner-all(0);
+
+		& ~ .jsc-btn {
+			.border-left();
+		}
+
+		&:first-child {
+			.round-corner-left();
+		}
+		
+		&:last-child {
+			.round-corner-right();
+		}
+
+	}
+
+}
+
