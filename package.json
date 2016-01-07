@@ -1,5 +1,5 @@
 {
-  "name": "jscow-group",
+  "name": "jscow-buttongroup",
   "description": "jsCow - Buttongroup - Javascript Component Framework",
   "version": "1.0.0",
   "license": "GPL-3.0+",
@@ -33,6 +33,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jsCow/jscow-button.git"
+    "url": "https://github.com/jsCow/jscow-buttongroup.git"
   }
 }
